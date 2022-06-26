@@ -1,5 +1,5 @@
 {
-  "name": "test-react-app",
+  "name": "react-test-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,5 +39,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
   }
 }
